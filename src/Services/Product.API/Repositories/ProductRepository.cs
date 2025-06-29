@@ -18,7 +18,7 @@ public class ProductRepository : RepositoryBase<CatalogProduct, long, ProductCon
 
     public async Task<CatalogProduct?> GetProduct(long id) => await GetByIdAsync(id);
 
-    public Task<CatalogProduct?> GetProductByNo(string productNo) =>
+    public Task<CatalogProduct?> GetProductByNo(string? productNo) =>
         FindByCondition(x => x.No != null && x.No.Equals(productNo)).SingleOrDefaultAsync();
 
     public Task CreateProduct(CatalogProduct product) => CreateAsync(product);

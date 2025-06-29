@@ -10,7 +10,7 @@ public interface IProductRepository : IRepositoryBase<CatalogProduct, long, Prod
 
     Task<CatalogProduct?> GetProduct(long id);
 
-    Task<CatalogProduct?> GetProductByNo(string productNo);
+    Task<CatalogProduct?> GetProductByNo(string? productNo);
 
     Task CreateProduct(CatalogProduct product);
 

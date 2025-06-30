@@ -1,0 +1,235 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="2600" dy="1775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="ng1vMYoLD2ObKu86uoLu-0" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IDateTracking&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CreatedDate: DateTimeOffset&lt;br&gt;+ LastModifiedDate: DateTimeOffset?&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1035" y="140" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ng1vMYoLD2ObKu86uoLu-1" value="«interface»&lt;br&gt;&lt;b&gt;IAuditable&lt;/b&gt;" style="html=1;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-980" y="290" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ng1vMYoLD2ObKu86uoLu-7" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEev_Y-zVk4Ukn1wjkZ_-6" target="ng1vMYoLD2ObKu86uoLu-1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1270" y="420" as="sourcePoint" />
+            <mxPoint x="-1110" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ng1vMYoLD2ObKu86uoLu-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IEntityBase&amp;lt;T&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Id: T&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1270" y="247.5" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ng1vMYoLD2ObKu86uoLu-12" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEev_Y-zVk4Ukn1wjkZ_-9" target="ng1vMYoLD2ObKu86uoLu-8" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1215" y="413" as="sourcePoint" />
+            <mxPoint x="-1090" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ng1vMYoLD2ObKu86uoLu-13" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEev_Y-zVk4Ukn1wjkZ_-8" target="aEev_Y-zVk4Ukn1wjkZ_-11" edge="1">
+          <mxGeometry x="0.1111" width="160" relative="1" as="geometry">
+            <mxPoint x="-1074.9999999999995" y="439" as="sourcePoint" />
+            <mxPoint x="-1138" y="439" as="targetPoint" />
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ng1vMYoLD2ObKu86uoLu-14" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IUnitOfWork&amp;lt;TContext&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CommitAsync(): Task&amp;lt;int&amp;gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1535" y="235" width="160" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="ng1vMYoLD2ObKu86uoLu-15" value="UnitOfWork&amp;lt;TContext&amp;gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1560" y="392" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ng1vMYoLD2ObKu86uoLu-16" value="- _context: TContext" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="ng1vMYoLD2ObKu86uoLu-15" vertex="1">
+          <mxGeometry y="26" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ng1vMYoLD2ObKu86uoLu-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="ng1vMYoLD2ObKu86uoLu-15" vertex="1">
+          <mxGeometry y="52" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ng1vMYoLD2ObKu86uoLu-18" value="+ Dispose(): void (from IDisposable)&lt;br&gt;... (must)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="ng1vMYoLD2ObKu86uoLu-15" vertex="1">
+          <mxGeometry y="60" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ng1vMYoLD2ObKu86uoLu-19" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ng1vMYoLD2ObKu86uoLu-15" target="ng1vMYoLD2ObKu86uoLu-14" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1260" y="250" as="sourcePoint" />
+            <mxPoint x="-1100" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ng1vMYoLD2ObKu86uoLu-20" value="«interface»&lt;br&gt;&lt;b&gt;IDisposable&lt;/b&gt;" style="html=1;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1510" y="110" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ng1vMYoLD2ObKu86uoLu-22" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IRepositoryQueryBase&amp;lt;T, K, TContext&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ FindAll(bool trackChanges = false): IQueryable&amp;lt;T&amp;gt;&lt;br&gt;+&amp;nbsp;FindAll(bool trackChanges = false, params Expression&amp;lt;Func&amp;lt;T, object&amp;gt;&amp;gt;[] includeProperties):&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;IQueryable&amp;lt;T&amp;gt;&lt;br&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;FindByCondition(Expression&amp;lt;Func&amp;lt;T, bool&amp;gt;&amp;gt; expression, bool trackChanges = false):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;IQueryable&amp;lt;T&amp;gt;&lt;br&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;FindByCondition(Expression&amp;lt;Func&amp;lt;T, bool&amp;gt;&amp;gt; expression, bool trackChanges = false, params Expression&amp;lt;Func&amp;lt;T, object&amp;gt;&amp;gt;[] includeProperties):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;IQueryable&amp;lt;T&amp;gt;&lt;br&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;GetByIdAsync(K id):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Task&amp;lt;T?&amp;gt;&lt;br&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;GetByIdAsync(K id, params Expression&amp;lt;Func&amp;lt;T, object&amp;gt;&amp;gt;[] includeProperties):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Task&amp;lt;T?&amp;gt;&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-400" y="40" width="360" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="ng1vMYoLD2ObKu86uoLu-23" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IRepositoryBase&amp;lt;T, K, TContext&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CreateAsync(T entity): Task&amp;lt;K&amp;gt;&lt;br&gt;+&amp;nbsp;CreateListAsync(IEnumerable&amp;lt;T&amp;gt; entities):&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;Task&amp;lt;IList&amp;lt;K&amp;gt;&amp;gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;br&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;UpdateAsync(T entity):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Task&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;UpdateListAsync(IEnumerable&amp;lt;T&amp;gt; entities):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Task&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;br&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;DeleteAsync(T entity):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Task&lt;br&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;DeleteListAsync(IEnumerable&amp;lt;T&amp;gt; entities): Task&lt;br&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;SaveChangesAsync(): Task&amp;lt;int&amp;gt;&lt;br&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;BeginTransactionAsync():&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Task&amp;lt;IDbContextTransaction&amp;gt;&lt;br&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;EndTransactionAsync(): Task&lt;br&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;RollbackTransactionAsync(): Task&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-390" y="330" width="340" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="J09rueVBb00K8Ms9e4ie-0" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IProductRepository&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetProducts(): Task&amp;lt;IEnumerable&amp;lt;CatalogProduct&amp;gt;&amp;gt;&lt;br&gt;+&amp;nbsp;GetProduct(long id):&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;Task&amp;lt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;CatalogProduct&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;GetProductByNo(string productNo):&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Task&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;CatalogProduct&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;br&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;CreateProduct(CatalogProduct product): Task&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;br&gt;+ Update&lt;/span&gt;Product(CatalogProduct product): Task&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;br&gt;+ Delete&lt;/span&gt;Product(long id): Task&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-390" y="606" width="340" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="J09rueVBb00K8Ms9e4ie-2" value="&lt;b&gt;ProductRepository&lt;/b&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="120.25" y="627" width="257" height="84" as="geometry">
+            <mxRectangle x="-315" y="870" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J09rueVBb00K8Ms9e4ie-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="J09rueVBb00K8Ms9e4ie-2" vertex="1">
+          <mxGeometry y="26" width="257" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="J09rueVBb00K8Ms9e4ie-5" value=".... (must &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;only&lt;/font&gt; impl from &lt;b&gt;IProductRepository&lt;/b&gt;)&lt;br&gt;+ Re-use methods of &lt;b&gt;RepositoryBase&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="J09rueVBb00K8Ms9e4ie-2" vertex="1">
+          <mxGeometry y="34" width="257" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="J09rueVBb00K8Ms9e4ie-6" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="J09rueVBb00K8Ms9e4ie-5" target="J09rueVBb00K8Ms9e4ie-0" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="90" y="850" as="sourcePoint" />
+            <mxPoint x="90" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J09rueVBb00K8Ms9e4ie-7" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;b&gt;RepositoryBase&lt;/b&gt;&amp;lt;T, K, TContext&amp;gt;&lt;/font&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="105.75" y="341" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="J09rueVBb00K8Ms9e4ie-8" value="- _dbContext: TContext&lt;br&gt;- _unitOfWork: IUnitOfWork&amp;lt;TContext&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="J09rueVBb00K8Ms9e4ie-7" vertex="1">
+          <mxGeometry y="26" width="280" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="J09rueVBb00K8Ms9e4ie-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="J09rueVBb00K8Ms9e4ie-7" vertex="1">
+          <mxGeometry y="70" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="J09rueVBb00K8Ms9e4ie-10" value="... (must from &lt;b&gt;All &lt;font style=&quot;color: rgb(0, 127, 255);&quot;&gt;Interfaces&lt;/font&gt; above =&amp;gt; not good?&lt;/b&gt;), only need &lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;Command&lt;/font&gt;&lt;/b&gt; not &lt;font style=&quot;color: rgb(102, 0, 204);&quot;&gt;Query&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="J09rueVBb00K8Ms9e4ie-7" vertex="1">
+          <mxGeometry y="78" width="280" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="J09rueVBb00K8Ms9e4ie-11" value="Explicit extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.509;entryY=1.048;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="J09rueVBb00K8Ms9e4ie-2" target="J09rueVBb00K8Ms9e4ie-10" edge="1">
+          <mxGeometry x="-0.0038" width="160" relative="1" as="geometry">
+            <mxPoint x="180" y="800" as="sourcePoint" />
+            <mxPoint x="260" y="650" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J09rueVBb00K8Ms9e4ie-12" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="J09rueVBb00K8Ms9e4ie-10" target="ng1vMYoLD2ObKu86uoLu-23" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="220" y="590" as="sourcePoint" />
+            <mxPoint x="230" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J09rueVBb00K8Ms9e4ie-13" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IUserTracking&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CreatedBy(): string&lt;br&gt;+ LastModifiedBy: string&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1000" y="-30" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="aEev_Y-zVk4Ukn1wjkZ_-0" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ng1vMYoLD2ObKu86uoLu-23" target="ng1vMYoLD2ObKu86uoLu-22" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-10" y="410" as="sourcePoint" />
+            <mxPoint x="150" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEev_Y-zVk4Ukn1wjkZ_-2" value="Expl extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="J09rueVBb00K8Ms9e4ie-0" target="ng1vMYoLD2ObKu86uoLu-23" edge="1">
+          <mxGeometry x="0.0027" width="160" relative="1" as="geometry">
+            <mxPoint x="-30" y="703" as="sourcePoint" />
+            <mxPoint x="-30" y="620" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEev_Y-zVk4Ukn1wjkZ_-4" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ng1vMYoLD2ObKu86uoLu-14" target="ng1vMYoLD2ObKu86uoLu-20" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1310" y="253" as="sourcePoint" />
+            <mxPoint x="-1310" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEev_Y-zVk4Ukn1wjkZ_-5" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ng1vMYoLD2ObKu86uoLu-1" target="ng1vMYoLD2ObKu86uoLu-0" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1210" y="263" as="sourcePoint" />
+            <mxPoint x="-1210" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEev_Y-zVk4Ukn1wjkZ_-6" value="&lt;b&gt;EntityAuditBase&amp;lt;T&amp;gt; &lt;/b&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;(abs)&lt;/font&gt;&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1030" y="405" width="210" height="84" as="geometry">
+            <mxRectangle x="-315" y="870" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEev_Y-zVk4Ukn1wjkZ_-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="aEev_Y-zVk4Ukn1wjkZ_-6" vertex="1">
+          <mxGeometry y="26" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="aEev_Y-zVk4Ukn1wjkZ_-8" value=".... (must from &lt;b&gt;IDateTracking&lt;/b&gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="aEev_Y-zVk4Ukn1wjkZ_-6" vertex="1">
+          <mxGeometry y="34" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aEev_Y-zVk4Ukn1wjkZ_-9" value="&lt;b&gt;EntityBase&amp;lt;TKey&amp;gt; &lt;/b&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;(abs)&lt;/font&gt;&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1310" y="405" width="210" height="84" as="geometry">
+            <mxRectangle x="-315" y="870" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEev_Y-zVk4Ukn1wjkZ_-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="aEev_Y-zVk4Ukn1wjkZ_-9" vertex="1">
+          <mxGeometry y="26" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="aEev_Y-zVk4Ukn1wjkZ_-11" value=".... (must from &lt;b&gt;IEntityBase&amp;lt;T&amp;gt;&lt;/b&gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="aEev_Y-zVk4Ukn1wjkZ_-9" vertex="1">
+          <mxGeometry y="34" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aEev_Y-zVk4Ukn1wjkZ_-14" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="J09rueVBb00K8Ms9e4ie-0" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-880" y="490" as="sourcePoint" />
+            <mxPoint x="-480" y="686" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEev_Y-zVk4Ukn1wjkZ_-16" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Inject this into&lt;/font&gt;&lt;font style=&quot;color: rgb(204, 0, 0);&quot;&gt; ProductController &lt;/font&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;(instead of&lt;/font&gt;&lt;font style=&quot;color: rgb(204, 0, 0);&quot;&gt; IRepositoryBase&lt;/font&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-730" y="660" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aEev_Y-zVk4Ukn1wjkZ_-18" value="Entities class" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1030" y="584" width="210" height="84" as="geometry">
+            <mxRectangle x="-315" y="870" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEev_Y-zVk4Ukn1wjkZ_-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="aEev_Y-zVk4Ukn1wjkZ_-18" vertex="1">
+          <mxGeometry y="26" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="aEev_Y-zVk4Ukn1wjkZ_-20" value=".... (to have a dynamic field of &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;b&gt;Id&lt;/b&gt;&lt;/font&gt;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="aEev_Y-zVk4Ukn1wjkZ_-18" vertex="1">
+          <mxGeometry y="34" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aEev_Y-zVk4Ukn1wjkZ_-21" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.505;entryY=0.969;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEev_Y-zVk4Ukn1wjkZ_-18" target="aEev_Y-zVk4Ukn1wjkZ_-8" edge="1">
+          <mxGeometry x="0.1111" width="160" relative="1" as="geometry">
+            <mxPoint x="-1060" y="640" as="sourcePoint" />
+            <mxPoint x="-1130" y="640" as="targetPoint" />
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aEev_Y-zVk4Ukn1wjkZ_-22" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ICustomerRepository&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;GetCustomerByUsernameAsync(string username):&amp;nbsp;Task&amp;lt;Customer?&amp;gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-425.75" y="-123" width="411.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="aEev_Y-zVk4Ukn1wjkZ_-23" value="Expl Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEev_Y-zVk4Ukn1wjkZ_-22" target="ng1vMYoLD2ObKu86uoLu-22" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-390" y="398" as="sourcePoint" />
+            <mxPoint x="-390" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DVjf-xhH6SdKl0QqeU9q-0" value="&lt;b&gt;CustomerRepository&lt;/b&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="85.5" y="-94" width="314.5" height="110" as="geometry">
+            <mxRectangle x="-315" y="870" width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DVjf-xhH6SdKl0QqeU9q-1" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="DVjf-xhH6SdKl0QqeU9q-0" vertex="1">
+          <mxGeometry y="26" width="314.5" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="DVjf-xhH6SdKl0QqeU9q-2" value=".... (must &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;only&lt;/font&gt; impl from &lt;b&gt;ICustomerRepository&lt;/b&gt;)&lt;br&gt;+ Re-use methods of &lt;b&gt;RepositoryBase&lt;/b&gt;&lt;br&gt;+&lt;b&gt; Still have access to &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;CreateAsync&lt;/font&gt;(...) &lt;/b&gt;cuz it exists&lt;b&gt; &lt;/b&gt;in&lt;b&gt; RepositoryBase =&amp;gt; &lt;font style=&quot;color: rgb(0, 102, 204);&quot;&gt;wrong&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="DVjf-xhH6SdKl0QqeU9q-0" vertex="1">
+          <mxGeometry y="34" width="314.5" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="DVjf-xhH6SdKl0QqeU9q-3" value="Explicit extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.502;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DVjf-xhH6SdKl0QqeU9q-2" target="J09rueVBb00K8Ms9e4ie-7" edge="1">
+          <mxGeometry x="-0.0038" width="160" relative="1" as="geometry">
+            <mxPoint x="130" y="750" as="sourcePoint" />
+            <mxPoint x="358" y="780" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DVjf-xhH6SdKl0QqeU9q-4" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="DVjf-xhH6SdKl0QqeU9q-0" target="aEev_Y-zVk4Ukn1wjkZ_-22" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="90" y="632" as="sourcePoint" />
+            <mxPoint x="90" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2-YeMusQIDPJzllU2fFE-0" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aEev_Y-zVk4Ukn1wjkZ_-22" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-420" y="330" as="sourcePoint" />
+            <mxPoint x="-500" y="-70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2-YeMusQIDPJzllU2fFE-1" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Inject this into&lt;/font&gt;&lt;font style=&quot;color: rgb(204, 0, 0);&quot;&gt; ProductController &lt;/font&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;(instead of&lt;/font&gt;&lt;font style=&quot;color: rgb(204, 0, 0);&quot;&gt; IRepositoryQueryBase&lt;/font&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-750" y="-94" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ugQx9-S9b73ekJFO8o61-0" value="&lt;h2&gt;&lt;u&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;Notes:&lt;/font&gt;&lt;/u&gt;&lt;/h2&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 204);&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;* &lt;/span&gt;&lt;font style=&quot;background-color: transparent; color: rgb(51, 51, 255);&quot;&gt;Extends&lt;/font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;:&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;+ Multiple inheritances only for &lt;/span&gt;&lt;font style=&quot;background-color: transparent; color: rgb(255, 128, 0);&quot;&gt;Interface &lt;/font&gt;&lt;font style=&quot;background-color: transparent; color: rgb(0, 0, 0);&quot;&gt;(&lt;/font&gt;&lt;font style=&quot;background-color: transparent; color: rgb(255, 0, 0);&quot;&gt;parents&#39; interfaces&lt;/font&gt;&lt;font style=&quot;background-color: transparent; color: rgb(0, 153, 0);&quot;&gt;, no care for child&lt;/font&gt;&lt;font style=&quot;background-color: transparent; color: rgb(0, 0, 0);&quot;&gt;)&lt;/font&gt;&lt;font style=&quot;background-color: transparent;&quot;&gt;&lt;font color=&quot;#ff8000&quot;&gt;.&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(255, 128, 0); white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;+ S&lt;/font&gt;&lt;/font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;i&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ngle inheritance from a super&amp;nbsp;&lt;/span&gt;&lt;font style=&quot;background-color: transparent; color: rgb(255, 128, 0);&quot;&gt;&lt;font color=&quot;#ff8000&quot;&gt;Class (parent&#39; class, no care for child)&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;font&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font&gt;&lt;span style=&quot;color: rgb(255, 128, 0); white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;+ No need to re-write all parent&#39;s methods, just use them all or override.&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-230" y="-350" width="460" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

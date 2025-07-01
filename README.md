@@ -1,9 +1,9 @@
-## E-commerce application using Microservices with .NET Core
-<div align="center">
+# E-commerce application using Microservices with .NET Core
+<!-- <div align="center">
   <img src="https://badges.pufler.dev/years/0xthomasit" alt="Years Badge">
   <img src="https://badges.pufler.dev/repos/0xthomasit" alt="Repos Badge">
   <img src="https://badges.pufler.dev/updated/0xthomasit/ecommerce_microservices" alt="Updated Badge">
-</div>
+</div> -->
 
 ## Prepare environment:
 
@@ -52,7 +52,7 @@ docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d --remo
 - RabbitMQ: http://localhost:15672 - username: thomas ; pass: Admin3000
 
 2. Using Visual Studio 2022
-- Open aspnetcore-microservices.sln - `aspnetcore-microservices.sln`
+- Open ecommerce_microservices.sln - `ecommerce_microservices.sln`
 - Run Compound to start multi-projects
 ---
 ## Application URLs - DEVELOPMENT Environment:
